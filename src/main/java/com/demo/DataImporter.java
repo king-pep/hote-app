@@ -71,8 +71,7 @@ public class DataImporter {
         Address address = new Address("The Royal Grand Hotel", "Tubman Blvd", null,
                 State.MT, "Monrovia", new Postcode("3000"));
 
-        Hotel grandHotel = new Hotel("The Royal Grand Hotel", address, 4, "https://www.tripadvisor.co.za/Hotel_" +
-                "Review-g293805-d637775-Reviews-Royal_Grand_Hotel-Monrovia_Montserrado_County.html",
+        Hotel grandHotel = new Hotel("The Royal Grand Hotel", address, 4, "http://royalgrandhotel.com/",
                 earliestCheckInTime,
                 latestCheckInTime,
                 earliestCheckOutTime,
@@ -102,7 +101,7 @@ public class DataImporter {
         Address address2 = new Address("The Farmington Hotel", "RIA Road", null,
                 State.GB, "Buchanna", new Postcode("3150"));
 
-        Hotel hotel = new Hotel("The Farmington Hotel", address2, 3, "https://www.tripadvisor.co.za/Hotel_Review-g681270-d12593812-Reviews-The_Farmington_Hotel-Harbel_Margibi_County.html",
+        Hotel hotel = new Hotel("The Farmington Hotel", address2, 3, "https://www.campbellgrayhotels.com/farmington-liberia/",
                 earliestCheckInTime,
                 latestCheckInTime,
                 earliestCheckOutTime,
@@ -192,8 +191,7 @@ public class DataImporter {
         Address address = new Address("Hilton Garden Inn", "RIA Road", null,
                 State.GB, "Buchanna", new Postcode("3000"));
 
-        Hotel hotel = new Hotel("Hilton Garden Inn", address, 4, "https://h.priceline.com/hotel/cr/hilton-garden-inn" +
-                "-liberia-airport.en-gb.html?aid=826590;label=liberia-2pc3NNfoS1T7qc_ztM7AVAS79423435681%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-8688083941%3Alp1028682%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH0_Jxt6fWoC48;sid=0e550e508f1c5a8e11f113a83c26aa28",
+        Hotel hotel = new Hotel("Hilton Garden Inn", address, 4, "https://www.hilton.com/en/hotels/",
                 earliestCheckInTime,
                 latestCheckInTime,
                 earliestCheckOutTime,
