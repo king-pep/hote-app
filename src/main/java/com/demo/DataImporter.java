@@ -68,10 +68,11 @@ public class DataImporter {
         LocalTime latestCheckOutTime = LocalTime.of(14, 0);
         BigDecimal lateCheckoutFee = BigDecimal.valueOf(45.60);
 
-        Address address = new Address("The Grand Hotel", "166 Albert Road", null,
-                State.VIC, "Melbourne", new Postcode("3000"));
+        Address address = new Address("The Royal Grand Hotel", "Tubman Blvd", null,
+                State.MT, "Monrovia", new Postcode("3000"));
 
-        Hotel grandHotel = new Hotel("The Grand Hotel", address, 4, "grandhotel.com.au",
+        Hotel grandHotel = new Hotel("The Royal Grand Hotel", address, 4, "https://www.tripadvisor.co.za/Hotel_" +
+                "Review-g293805-d637775-Reviews-Royal_Grand_Hotel-Monrovia_Montserrado_County.html",
                 earliestCheckInTime,
                 latestCheckInTime,
                 earliestCheckOutTime,
@@ -98,10 +99,10 @@ public class DataImporter {
         LocalTime latestCheckOutTime = LocalTime.of(15, 0);
         BigDecimal lateCheckoutFee = BigDecimal.valueOf(29.40);
 
-        Address address2 = new Address("Glen Iris", "99A Glen Road", null,
-                State.VIC, "Glen Waverley", new Postcode("3150"));
+        Address address2 = new Address("The Farmington Hotel", "RIA Road", null,
+                State.GB, "Buchanna", new Postcode("3150"));
 
-        Hotel hotel = new Hotel("Glen Iris", address2, 3, "glenhotel.com.au",
+        Hotel hotel = new Hotel("The Farmington Hotel", address2, 3, "https://www.tripadvisor.co.za/Hotel_Review-g681270-d12593812-Reviews-The_Farmington_Hotel-Harbel_Margibi_County.html",
                 earliestCheckInTime,
                 latestCheckInTime,
                 earliestCheckOutTime,
@@ -129,7 +130,7 @@ public class DataImporter {
         BigDecimal lateCheckoutFee = BigDecimal.valueOf(45.60);
 
         Address address = new Address("Cevello Blanca", "2 smith street", null,
-                State.VIC, "Carlton", new Postcode("3053"));
+                State.MT, "Carlton", new Postcode("3053"));
 
         Hotel hotel = new Hotel("Cevello Blanca", address, 5, "cevellohotel.com.au",
                 earliestCheckInTime,
@@ -159,7 +160,7 @@ public class DataImporter {
         BigDecimal lateCheckoutFee = BigDecimal.valueOf(45.60);
 
         Address address = new Address("Bravo", "7 apple avenue", null,
-                State.VIC, "Docklands", new Postcode("3008"));
+                State.MT, "Docklands", new Postcode("3008"));
 
         Hotel hotel = new Hotel("Bravo", address, 2, "bravoohotel.com.au",
                 earliestCheckInTime,
@@ -188,10 +189,11 @@ public class DataImporter {
         LocalTime latestCheckOutTime = LocalTime.of(14, 0);
         BigDecimal lateCheckoutFee = BigDecimal.valueOf(45.60);
 
-        Address address = new Address("Zamza", "7 zamza avenue", null,
-                State.VIC, "Melbourne", new Postcode("3000"));
+        Address address = new Address("Hilton Garden Inn", "RIA Road", null,
+                State.GB, "Buchanna", new Postcode("3000"));
 
-        Hotel hotel = new Hotel("Zamza", address, 4, "zamzaohotel.com.au",
+        Hotel hotel = new Hotel("Hilton Garden Inn", address, 4, "https://h.priceline.com/hotel/cr/hilton-garden-inn" +
+                "-liberia-airport.en-gb.html?aid=826590;label=liberia-2pc3NNfoS1T7qc_ztM7AVAS79423435681%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-8688083941%3Alp1028682%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YZVcNNsENnH0_Jxt6fWoC48;sid=0e550e508f1c5a8e11f113a83c26aa28",
                 earliestCheckInTime,
                 latestCheckInTime,
                 earliestCheckOutTime,
@@ -218,10 +220,10 @@ public class DataImporter {
         LocalTime latestCheckOutTime = LocalTime.of(14, 0);
         BigDecimal lateCheckoutFee = BigDecimal.valueOf(45.60);
 
-        Address address = new Address("Xavier Hotel", "7 xavier road", null,
-                State.VIC, "Melbourne", new Postcode("3000"));
+        Address address = new Address("Palm Spring Resort", "Tubman Blvd", null,
+                State.MT, "Tubman Blvd", new Postcode("3000"));
 
-        Hotel hotel = new Hotel("Xavier Hotel", address, 4, "xavierhotel.com.au",
+        Hotel hotel = new Hotel("Palm Spring Resort", address, 4, "http://www.liberiapalmspring.com/",
                 earliestCheckInTime,
                 latestCheckInTime,
                 earliestCheckOutTime,
