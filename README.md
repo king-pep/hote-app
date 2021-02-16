@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/king-pep/hote-app)
+
 Hotel reservation system using spring boot and thymeleaf.
 
 [![Youtube demo](https://github.com/mjstewart/hotel-reservation-springmvc/blob/master/hotel_thumb.png)](https://www.youtube.com/watch?v=A9QIAvK-aGc "Youtube demo")
